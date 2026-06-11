@@ -3,11 +3,12 @@
 #  Conceito: Modularização, loop principal, controle de fluxo
 # ============================================================
 
-import menu as menu
-import sistema as sistema
+import menu as menu # importa o menu para mostrar as opções para o usuário
+import sistema as sistema # importa as funções do sistema para usar aqui no main
 
-def main():
-    herois = []   # Lista em memória — estrutura de dados central
+def main(herois=None):       # ← recebe do demo, ou cria vazia
+    if herois is None:
+        herois = []
 
     while True:
         menu.mostrar()

@@ -4,8 +4,7 @@
 # ============================================================
 
 from heroi import Heroi
-import sistema as sistema
-import menu as menu
+import main  # importa o ponto de entrada real
 
 def popular():
     """Cria 5 heróis automaticamente"""
@@ -20,31 +19,6 @@ def popular():
     return herois
 
 
-def main():
-    herois = popular()
-
-    while True:
-        menu.mostrar()
-        opcao = input("\n  Escolha uma opção: ").strip()
-
-        if opcao == "1":
-            sistema.cadastrar(herois)
-        elif opcao == "2":
-            sistema.listar(herois)
-        elif opcao == "3":
-            sistema.buscar(herois)
-        elif opcao == "4":
-            sistema.ranking(herois)
-        elif opcao == "5":
-            sistema.batalhar(herois)
-        elif opcao == "6":
-            print("\n  👋 Até a próxima!\n")
-            break
-        else:
-            print("\n  ⚠  Opção inválida.")
-
-        input("\n  [ Enter para continuar ]")
-
-
 if __name__ == "__main__":
-    main()
+    herois = popular()
+    main.main(herois)   # passa os heróis pré-carregados

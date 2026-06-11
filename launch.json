@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "🚀 Rodar main.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/arena_herois/main.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "🎬 Rodar demo.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/arena_herois/demo.py",
+            "console": "integratedTerminal"
+        }
+    ]
+}
