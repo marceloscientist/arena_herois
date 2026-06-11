@@ -1,0 +1,5 @@
+# Arena dos Heróis — sem dependências externas
+# O projeto usa apenas a biblioteca padrão do Python
+
+# Para rodar: python main.py
+# Versão mínima: Python 3.8+
