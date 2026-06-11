@@ -1,181 +1,155 @@
 <div align="center">
 
-# ⚔️ Arena dos Heróis
+🇧🇷 [Leia em Português](./README.pt-BR.md) | 🇺🇸 English
 
-### Projeto de conclusão — UC Lógica de Programação
+# ⚔️ Heroes Arena
+
+### Capstone Project — Programming Logic Course
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-Editor-blue?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Pronto-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Ready-green?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
 </div>
 
 ---
 
-## 📖 Sobre o Projeto
+## 📖 About
 
-O **Arena dos Heróis** é o projeto de encerramento da UC de **Lógica de Programação**.
+**Heroes Arena** is the capstone project for the **Programming Logic** course.
 
-Em um único sistema, você vai ver na prática tudo que estudou durante o curso:
+In a single system, you will see in practice everything studied throughout the course:
 
-| Conceito | Onde aparece |
+| Concept | Where it appears |
 |---|---|
-| 🧠 Lógica de Programação | Estrutura do `main.py`, condicionais, loops |
-| 📦 Estrutura de Dados | Lista de heróis em memória |
-| 🏛️ Orientação a Objetos | Classe `Heroi`, atributos, métodos |
-| 📊 Big O Notation | `append O(1)`, busca `O(n)`, ranking `O(n log n)` |
-| 🗂️ Modularização | Projeto dividido em múltiplos arquivos |
+| 🧠 Programming Logic | `main.py` structure, conditionals, loops |
+| 📦 Data Structures | In-memory hero list |
+| 🏛️ Object-Oriented Programming | `Hero` class, attributes, methods |
+| 📊 Big O Notation | `append O(1)`, search `O(n)`, ranking `O(n log n)` |
+| 🗂️ Modularization | Project split across multiple files |
 
 ---
 
-## 🖥️ Instalação — Passo a Passo (Windows)
+## 🖥️ Installation — Step by Step (Windows)
 
-### ✅ Pré-requisitos
+### ✅ Prerequisites
 
-Você vai precisar instalar **duas ferramentas** antes de rodar o projeto:
+You will need to install **two tools** before running the project:
 
 1. **Python 3.8+**
 2. **Visual Studio Code**
 
 ---
 
-### 🐍 PASSO 1 — Instalar o Python
+### 🐍 STEP 1 — Install Python
 
-**1.** Acesse o site oficial:
+**1.** Go to the official website:
 👉 [https://www.python.org/downloads](https://www.python.org/downloads)
 
-**2.** Clique no botão **"Download Python 3.x.x"**
+**2.** Click **"Download Python 3.x.x"**
 
-**3.** Execute o instalador baixado
+**3.** Run the downloaded installer
 
-> ⚠️ **ATENÇÃO — Passo obrigatório:**
-> Na primeira tela do instalador, marque a opção:
+> ⚠️ **IMPORTANT — Required step:**
+> On the first screen of the installer, check:
 > ```
 > ✅ Add Python to PATH
 > ```
-> **Só depois clique em "Install Now"**
+> **Then click "Install Now"**
 
-**4.** Verifique se funcionou — abra o **Prompt de Comando**:
-> Pressione `Win + R`, digite `cmd` e pressione Enter
+**4.** Verify the installation — open the **Command Prompt**:
+> Press `Win + R`, type `cmd` and press Enter
 
 ```cmd
 python --version
 ```
 
-Você deve ver algo como:
+Expected output:
 ```
 Python 3.12.0
 ```
 
 ---
 
-### 💻 PASSO 2 — Instalar o VS Code
+### 💻 STEP 2 — Install VS Code
 
-**1.** Acesse o site oficial:
+**1.** Go to the official website:
 👉 [https://code.visualstudio.com](https://code.visualstudio.com)
 
-**2.** Clique em **"Download for Windows"**
+**2.** Click **"Download for Windows"**
 
-**3.** Execute o instalador e marque estas opções:
+**3.** Run the installer and check:
 ```
-✅ Adicionar ao PATH
-✅ Registrar como editor padrão
-✅ Adicionar "Abrir com Code" ao menu de contexto
+✅ Add to PATH
+✅ Register as default editor
+✅ Add "Open with Code" to context menu
 ```
 
 ---
 
-### 🧩 PASSO 3 — Instalar a Extensão Python no VS Code
+### 🧩 STEP 3 — Install the Python Extension
 
-**1.** Abra o VS Code
+**1.** Open VS Code
 
-**2.** Pressione `Ctrl + Shift + X`
+**2.** Press `Ctrl + Shift + X`
 
-**3.** Na barra de busca, digite: `Python`
+**3.** Search for: `Python`
 
-**4.** Instale a extensão oficial da **Microsoft**
+**4.** Install the official **Microsoft** extension
 
 ---
 
-### 📥 PASSO 4 — Baixar o Projeto
+### 📥 STEP 4 — Download the Project
 
-**Opção A — Com Git instalado:**
+**Option A — With Git:**
 
-Abra o terminal e execute:
 ```bash
-git clone https://github.com/SEU_USUARIO/arena-herois.git
+git clone https://github.com/YOUR_USERNAME/arena-herois.git
 cd arena-herois
 ```
 
-**Opção B — Download direto (sem Git):**
+**Option B — Direct download (no Git required):**
 
-1. Clique no botão verde **`<> Code`** nesta página
-2. Clique em **"Download ZIP"**
-3. Extraia o arquivo ZIP em uma pasta de sua preferência
-
----
-
-### ▶️ PASSO 5 — Abrir no VS Code
-
-**1.** Abra o VS Code
-
-**2.** Vá em `File → Open Folder`
-
-**3.** Selecione a pasta `arena-herois`
+1. Click the green **`<> Code`** button on this page
+2. Click **"Download ZIP"**
+3. Extract the ZIP to a folder of your choice
 
 ---
 
-### ⚙️ PASSO 6 — Selecionar o Interpretador Python
+### ▶️ STEP 5 — Run the Project
 
-**1.** Pressione `Ctrl + Shift + P`
-
-**2.** Digite: `Python: Select Interpreter`
-
-**3.** Selecione a versão do Python instalada
-
----
-
-### 🎮 PASSO 7 — Rodar o Projeto
-
-Abra o terminal integrado do VS Code com `` Ctrl + ` `` e execute:
+Open the VS Code integrated terminal with `` Ctrl + ` `` and run:
 
 ```bash
-# Entrar na pasta do projeto
 cd arena_herois
 
-# Rodar o sistema completo
+# Full system
 python main.py
-```
 
-Ou para rodar a **demo com heróis pré-carregados**:
-
-```bash
+# Automated demo with pre-loaded heroes
 python demo.py
 ```
 
 ---
 
-## 🗂️ Estrutura do Projeto
+## 🗂️ Project Structure
 
 ```
 arena_herois/
 │
-├── main.py        # Ponto de entrada — coordena tudo
-├── heroi.py       # Classe Herói — OOP
-├── menu.py        # Exibe o menu — separação de responsabilidades
-├── sistema.py     # Toda a lógica — funções e algoritmos
-└── demo.py        # Demo automática para testes
+├── main.py        # Entry point — orchestrates everything
+├── heroi.py       # Hero class — OOP
+├── menu.py        # Displays the menu — separation of concerns
+├── sistema.py     # All logic — functions and algorithms
+└── demo.py        # Automated demo for testing
 ```
-
-> 💡 **Por que separar em arquivos?**
-> Projetos reais nunca ficam em um único arquivo.
-> Cada arquivo tem **uma responsabilidade clara** — isso é arquitetura de software.
 
 ---
 
-## 📊 Conceitos aplicados no projeto
+## 📊 Core Concepts Applied
 
-### 🏛️ Orientação a Objetos
+### 🏛️ Object-Oriented Programming
 
 ```python
 class Heroi:
@@ -185,33 +159,27 @@ class Heroi:
         self.vida   = nivel * 20
         self.ataque = nivel * 5
 
-goku = Heroi("Goku", 10)   # instanciando um objeto
-goku.apresentar()           # chamando um método
+goku = Heroi("Goku", 10)   # instantiating an object
+goku.apresentar()           # calling a method
 ```
 
----
-
-### 📦 Estrutura de Dados — Lista
+### 📦 Data Structure — List
 
 ```python
-herois = []                  # lista vazia
-herois.append(Heroi(...))    # inserção → O(1)
-herois[0]                    # acesso direto → O(1)
+herois = []                  # empty list
+herois.append(Heroi(...))    # insert → O(1)
+herois[0]                    # direct access → O(1)
 ```
 
----
-
-### 🔍 Busca Linear
+### 🔍 Linear Search
 
 ```python
 for heroi in herois:
-    if heroi.nome == nome:   # busca → O(n)
+    if heroi.nome == nome:   # search → O(n)
         return heroi
 ```
 
----
-
-### 🏆 Ordenação
+### 🏆 Sorting
 
 ```python
 sorted(herois, key=lambda h: h.nivel, reverse=True)  # O(n log n)
@@ -219,98 +187,70 @@ sorted(herois, key=lambda h: h.nivel, reverse=True)  # O(n log n)
 
 ---
 
-### 📊 Tabela Big O
+## 📊 Big O Summary
 
-| Operação | Código | Complexidade |
+| Operation | Code | Complexity |
 |---|---|---|
-| Cadastrar | `append()` | **O(1)** |
-| Acessar por índice | `herois[0]` | **O(1)** |
-| Listar / Buscar | `for` + `if` | **O(n)** |
+| Register | `append()` | **O(1)** |
+| Access by index | `herois[0]` | **O(1)** |
+| List / Search | `for` + `if` | **O(n)** |
 | Ranking | `sorted()` | **O(n log n)** |
 
 ---
 
-## 🎮 Como usar o sistema
+## 🏆 Final Challenge
 
-```
-====================================
-       ⚔  ARENA DOS HERÓIS  ⚔
-====================================
-  1 - Cadastrar Herói
-  2 - Listar Heróis
-  3 - Buscar Herói
-  4 - Ranking
-  5 - Batalhar
-  6 - Sair
-====================================
-```
-
----
-
-## 🏆 Desafio Final
-
-Crie o arquivo `ranking.py` com a função abaixo e integre ao `main.py`:
+Create `ranking.py` and integrate it into `main.py`:
 
 ```python
-# ranking.py
-
 def mostrar_top3(herois):
-    """
-    Exibe os 3 heróis mais poderosos.
-    Pratique: sorted(), slicing, enumerate(), import
-    """
     classificados = sorted(herois, key=lambda h: h.nivel, reverse=True)
     top3 = classificados[:3]
 
-    print("\n--- 🥇 Top 3 Heróis ---")
+    print("\n--- 🥇 Top 3 Heroes ---")
     for posicao, heroi in enumerate(top3, start=1):
-        print(f"  {posicao}º {heroi.nome} — Nível {heroi.nivel}")
+        print(f"  {posicao}. {heroi.nome} — Level {heroi.nivel}")
 ```
 
-**Conceitos praticados:**
-- `sorted()` com `lambda`
-- Slicing `[:3]`
-- `enumerate()`
-- Criação e importação de módulo
+**Concepts practiced:** `sorted()` with `lambda`, list slicing `[:3]`, `enumerate()`, module import.
 
 ---
 
-## 🎓 UC Lógica de Programação
+## 🎓 What You Learned
 
-Este projeto é o encerramento de uma jornada que passou por:
-
-- ✅ Variáveis e tipos de dados
-- ✅ Condicionais e loops
-- ✅ Funções
-- ✅ Listas e estruturas de dados
-- ✅ Orientação a Objetos
-- ✅ Busca e Ordenação
-- ✅ Complexidade de algoritmos (Big O)
-- ✅ Modularização e arquitetura de projetos
-
-> *"Há algumas semanas você estava aprendendo o que era uma variável.*
-> *Hoje você é capaz de organizar um projeto em múltiplos arquivos,*
-> *criar classes, instanciar objetos, manipular listas, buscar, ordenar*
-> *e analisar a complexidade dos seus algoritmos."*
+- ✅ Variables and data types
+- ✅ Conditionals and loops
+- ✅ Functions
+- ✅ Lists and data structures
+- ✅ Object-Oriented Programming
+- ✅ Search and sorting algorithms
+- ✅ Algorithm complexity (Big O)
+- ✅ Modularization and project architecture
 
 ---
 
-## ▶️ Próximos Passos
+## 🚀 What Comes Next
 
-Agora que você domina os fundamentos, os próximos desafios são:
+| Topic | Technologies |
+|---|---|
+| 🔷 Databases | SQLite, PostgreSQL |
+| 🔷 REST APIs | Flask, FastAPI |
+| 🔷 Frontend | HTML, CSS, JavaScript |
+| 🔷 Advanced Git | Branches, Pull Requests |
+| 🔷 Automated Tests | unittest, pytest |
 
-- 🔷 **Banco de Dados** — persistir seus heróis com SQLite ou PostgreSQL
-- 🔷 **APIs REST** — expor seu sistema via HTTP com Flask ou FastAPI
-- 🔷 **Frontend** — criar uma interface visual com HTML, CSS e JavaScript
-- 🔷 **Git avançado** — branches, pull requests e colaboração em equipe
-- 🔷 **Testes automatizados** — garantir que seu código nunca quebre
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
 <div align="center">
 
-Feito com ❤️ para a turma de Lógica de Programação
+Made with ❤️ for the Programming Logic class
 
-⭐ Se este projeto te ajudou, deixa uma estrela no repositório!
+⭐ If this project helped you, give it a star!
 
 </div>
