@@ -4,8 +4,8 @@
 # ============================================================
 
 from heroi import Heroi
-import sistema
-import menu
+import sistema as sistema
+import menu as menu
 
 def popular():
     """Cria 5 heróis automaticamente"""

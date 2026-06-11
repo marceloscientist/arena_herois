@@ -3,7 +3,7 @@
 #  Conceito: Funções, Listas, Busca, Ordenação, Big O
 # ============================================================
 
-from arena_herois.heroi import Heroi
+from heroi import Heroi
 
 
 # ----------------------------------------------------------

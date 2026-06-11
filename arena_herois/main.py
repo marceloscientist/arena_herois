@@ -3,8 +3,8 @@
 #  Conceito: Modularização, loop principal, controle de fluxo
 # ============================================================
 
-import menu
-import sistema
+import menu as menu
+import sistema as sistema
 
 def main():
     herois = []   # Lista em memória — estrutura de dados central
